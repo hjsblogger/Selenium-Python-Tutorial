@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Himanshu Jagdish Sheth <himanshuj@lambdatest.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^6.2.5"
+autopep8 = "flake8"
+
+[tool.poetry.dev-dependencies]
+selenium = "^3.141.0"
+pytest-xdist = "^2.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
